@@ -4,7 +4,7 @@
     "name": "UNIACME",
     "author": "Jose Ramirez",
     "version": "18.0.1.0.0",
-    "website": "https://github.com/jose535ramirez",
+    "website": "https://github.com/jose535ramirez/Uniacme",
     "license": "LGPL-3",
     "category": "Uncategorized",
     "depends": [
