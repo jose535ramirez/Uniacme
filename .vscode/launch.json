@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "UNIACME - odoo18",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/odoo/odoo-bin",
+      "preLaunchTask": "docker-compose-up",
+      "console": "integratedTerminal",
+      "args": ["--config=${workspaceFolder}/odoo-config/uniacme.conf"],
+      "python": "/home/ubuntu/miniconda3/envs/envUniacme/bin/python"
+    }
+  ]
+}
