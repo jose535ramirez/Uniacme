@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="uniacme_headquarter_view_tree" model="ir.ui.view">
+            <field name="name">uniacme_headquarter_view_tree</field>
+            <field name="model">uniacme.headquarter</field>
+            <field name="arch" type="xml">
+                <list decoration-muted="active == False">
+                    <field name="name" options='{"text-decoration": "line-through: active == False"}'/>
+                    <field name="country_id" options='{"text-decoration": "line-through: active == False"}'/>
+                    <field name="tz" options='{"text-decoration": "line-through: active == False"}'/>
+                    <field name="active" column_invisible="1"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="uniacme_headquarter_view_form" model="ir.ui.view">
+            <field name="name">uniacme_headquarter_view_form</field>
+            <field name="model">uniacme.headquarter</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <widget name="web_ribbon" title="Archived" bg_color="bg-danger" invisible="active"/>
+                        <field name="active" invisible="1"/>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                            </group>
+                            <group>
+                                <field name="country_id"/>
+                                <field name="tz"/>
+                            </group>
+                        </group>
+                    </sheet>
+                    <chatter reload_on_post="True"/>
+                </form>
+            </field>
+        </record>
+
+        <record id="uniacme_headquarter_action" model="ir.actions.act_window">
+            <field name="name">Headquarter</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">uniacme.headquarter</field>
+            <field name="view_mode">list,form</field>
+            <field name="context">{'open_from_menu': True}</field>
+        </record>
+    </data>
+</odoo>

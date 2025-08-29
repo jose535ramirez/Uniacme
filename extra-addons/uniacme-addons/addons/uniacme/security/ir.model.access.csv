@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_uniacme_headquarter_user,uniacme.headquarter user,model_uniacme_headquarter,base.group_user,1,1,1,1
+access_uniacme_career_user,uniacme.career user,model_uniacme_career,base.group_user,1,1,1,1
+access_voting_process_user,voting.process user,model_voting_process,base.group_user,1,1,1,1
+access_voting.line_user,voting.line user,model_voting_line,base.group_user,1,1,1,1
+access_voting_process_import_wizard_user,voting.process.import.wizard user,model_voting_process_import_wizard,base.group_user,1,1,1,1

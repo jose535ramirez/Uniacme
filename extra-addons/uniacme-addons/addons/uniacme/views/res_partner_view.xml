@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+        <record id="view_form_student_contact" model="ir.ui.view">
+			<field name="name">res.partner.form.student</field>
+			<field name="model">res.partner</field>
+			<field name="inherit_id" ref="base.view_partner_form"/>
+			<field name="arch" type="xml">
+                <field name="vat" position="after">
+                    <field name="partner_type"/>
+                </field>
+				<xpath expr="//form/sheet/notebook" position="before">
+					<group invisible="partner_type != 'student'" string="Student Data">
+						<group>
+							<field name="headquarter_id"/>
+						</group>
+                        <group>
+                            <field name="university_career_id"/>
+                        </group>
+					</group>
+				</xpath>
+			</field>
+		</record>
+
+		<record id="action_student_contacts" model="ir.actions.act_window">
+			<field name="name">Students</field>
+			<field name="res_model">res.partner</field>
+			<field name="view_mode">kanban,form</field>
+			<field name="domain">[("partner_type", "=", "student")]</field>
+            <field name="context">{'default_partner_type': 'student'}</field>
+		</record>
+
+		<record id="action_candidate_contacts" model="ir.actions.act_window">
+			<field name="name">Candidates</field>
+			<field name="res_model">res.partner</field>
+			<field name="view_mode">kanban,form</field>
+			<field name="domain">[("partner_type", "=", "candidate")]</field>
+            <field name="context">{'default_partner_type': 'candidate'}</field>
+		</record>
+	</data>
+</odoo>

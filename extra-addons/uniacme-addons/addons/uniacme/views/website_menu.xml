@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record id="menu_vote" model="website.menu">
+            <field name="name">Vote</field>
+            <field name="url">/vote</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">10</field>
+        </record>
+    </data>
+</odoo>

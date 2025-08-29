@@ -1,0 +1,660 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-29 01:33+0000\n"
+"PO-Revision-Date: 2025-08-29 01:33+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_login_template
+msgid "Access to voting"
+msgstr "Acceso a la votación"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__message_needaction
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__message_needaction
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__message_needaction
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__message_needaction
+msgid "Action Needed"
+msgstr "Acción requerida"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__active
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__active
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__active
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__activity_ids
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__activity_ids
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__activity_ids
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__activity_exception_decoration
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__activity_exception_decoration
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__activity_exception_decoration
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de excepción de actividad"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__activity_state
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__activity_state
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__activity_state
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__activity_state
+msgid "Activity State"
+msgstr "Estado de actividad"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__activity_type_icon
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__activity_type_icon
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__activity_type_icon
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ícono de tipo de actividad"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.uniacme_career_view_form
+#: model_terms:ir.ui.view,arch_db:uniacme.uniacme_headquarter_view_form
+#: model_terms:ir.ui.view,arch_db:uniacme.uniacme_voting_process_view_form
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__message_attachment_count
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__message_attachment_count
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__message_attachment_count
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__message_attachment_count
+msgid "Attachment Count"
+msgstr "Cantidad de adjuntos"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.view_voting_process_import_wizard_form
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__candidate_id
+#: model:ir.model.fields.selection,name:uniacme.selection__res_partner__partner_type__candidate
+msgid "Candidate"
+msgstr "Candidato"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__candidate_vote_info
+msgid "Candidate Vote Info"
+msgstr "Información de votos del candidato"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_candidate_template
+msgid "Candidate:"
+msgstr "Candidato:"
+
+#. module: uniacme
+#: model:ir.actions.act_window,name:uniacme.action_candidate_contacts
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__candidate_ids
+#: model:ir.ui.menu,name:uniacme.menu_candidate_contacts
+msgid "Candidates"
+msgstr "Candidatos"
+
+#. module: uniacme
+#. odoo-python
+#: code:addons/uniacme/models/career.py:0
+#: model:ir.actions.act_window,name:uniacme.uniacme_career_action
+#: model:ir.model,name:uniacme.model_uniacme_career
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__name
+msgid "Career"
+msgstr "Carrera"
+
+#. module: uniacme
+#: model:ir.ui.menu,name:uniacme.uniacme_career_menu
+msgid "Careers"
+msgstr "Carreras"
+
+#. module: uniacme
+#: model:ir.model.fields.selection,name:uniacme.selection__voting_process__state__closed
+msgid "Closed"
+msgstr "Cerrado"
+
+#. module: uniacme
+#: model:ir.model,name:uniacme.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_res_partner__partner_type
+#: model:ir.model.fields,field_description:uniacme.field_res_users__partner_type
+msgid "Contact Type"
+msgstr "Tipo de contacto"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_selection_template
+msgid "Continue"
+msgstr "Continuar"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__country_id
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__create_uid
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__create_uid
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__create_uid
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__create_uid
+#: model:ir.model.fields,field_description:uniacme.field_voting_process_import_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__create_date
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__create_date
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__create_date
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__create_date
+#: model:ir.model.fields,field_description:uniacme.field_voting_process_import_wizard__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: uniacme
+#. odoo-python
+#: code:addons/uniacme/wizard/voting_process_import_wizard.py:0
+msgid "Debe subir un archivo XLSX."
+msgstr "Debe subir un archivo XLSX."
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.view_voting_process_import_wizard_form
+msgid "Descargar plantilla ejemplo"
+msgstr "Descargar plantilla de ejemplo"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__display_name
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__display_name
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__display_name
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__display_name
+#: model:ir.model.fields,field_description:uniacme.field_voting_process_import_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre visible"
+
+#. module: uniacme
+#: model:ir.model.fields.selection,name:uniacme.selection__voting_process__state__draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__date
+msgid "End Date"
+msgstr "Fecha de fin"
+
+#. module: uniacme
+#. odoo-python
+#: code:addons/uniacme/wizard/voting_process_import_wizard.py:0
+msgid "Fila %s incompleta."
+msgstr "Fila %s incompleta."
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_voting_process_import_wizard__filename
+msgid "File Name"
+msgstr "Nombre del archivo"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__message_follower_ids
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__message_follower_ids
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__message_follower_ids
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__message_partner_ids
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__message_partner_ids
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__message_partner_ids
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (socios)"
+
+#. module: uniacme
+#: model:ir.model.fields,help:uniacme.field_uniacme_career__activity_type_icon
+#: model:ir.model.fields,help:uniacme.field_uniacme_headquarter__activity_type_icon
+#: model:ir.model.fields,help:uniacme.field_voting_line__activity_type_icon
+#: model:ir.model.fields,help:uniacme.field_voting_process__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Ícono de Font Awesome, por ej. fa-tasks"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__has_message
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__has_message
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__has_message
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__has_message
+msgid "Has Message"
+msgstr "Tiene mensaje"
+
+#. module: uniacme
+#. odoo-python
+#: code:addons/uniacme/models/headquarter.py:0
+#: model:ir.actions.act_window,name:uniacme.uniacme_headquarter_action
+#: model:ir.model,name:uniacme.model_uniacme_headquarter
+#: model:ir.model.fields,field_description:uniacme.field_res_partner__headquarter_id
+#: model:ir.model.fields,field_description:uniacme.field_res_users__headquarter_id
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__name
+msgid "Headquarter"
+msgstr "Sede"
+
+#. module: uniacme
+#: model:ir.ui.menu,name:uniacme.uniacme_headquarter_menu
+msgid "Headquarters"
+msgstr "Sedes"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__id
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__id
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__id
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__id
+#: model:ir.model.fields,field_description:uniacme.field_voting_process_import_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_login_template
+msgid "ID number:"
+msgstr "Número de identificación:"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__activity_exception_icon
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__activity_exception_icon
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__activity_exception_icon
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__activity_exception_icon
+msgid "Icon"
+msgstr "Ícono"
+
+#. module: uniacme
+#: model:ir.model.fields,help:uniacme.field_uniacme_career__activity_exception_icon
+#: model:ir.model.fields,help:uniacme.field_uniacme_headquarter__activity_exception_icon
+#: model:ir.model.fields,help:uniacme.field_voting_line__activity_exception_icon
+#: model:ir.model.fields,help:uniacme.field_voting_process__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Ícono para indicar una actividad de excepción."
+
+#. module: uniacme
+#: model:ir.model.fields,help:uniacme.field_uniacme_career__message_needaction
+#: model:ir.model.fields,help:uniacme.field_uniacme_headquarter__message_needaction
+#: model:ir.model.fields,help:uniacme.field_voting_line__message_needaction
+#: model:ir.model.fields,help:uniacme.field_voting_process__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, los nuevos mensajes requieren su atención."
+
+#. module: uniacme
+#: model:ir.model.fields,help:uniacme.field_uniacme_career__message_has_error
+#: model:ir.model.fields,help:uniacme.field_uniacme_career__message_has_sms_error
+#: model:ir.model.fields,help:uniacme.field_uniacme_headquarter__message_has_error
+#: model:ir.model.fields,help:uniacme.field_uniacme_headquarter__message_has_sms_error
+#: model:ir.model.fields,help:uniacme.field_voting_line__message_has_error
+#: model:ir.model.fields,help:uniacme.field_voting_line__message_has_sms_error
+#: model:ir.model.fields,help:uniacme.field_voting_process__message_has_error
+#: model:ir.model.fields,help:uniacme.field_voting_process__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
+
+#. module: uniacme
+#: model:ir.model,name:uniacme.model_voting_process_import_wizard
+msgid "Import voting processes from XLSX"
+msgstr "Importar procesos de votación desde XLSX"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.view_voting_process_import_wizard_form
+msgid "Importar"
+msgstr "Importar"
+
+#. module: uniacme
+#: model:ir.actions.act_window,name:uniacme.action_voting_process_import_wizard
+#: model_terms:ir.ui.view,arch_db:uniacme.view_voting_process_import_wizard_form
+msgid "Importar Procesos de Votación"
+msgstr "Importar Procesos de Votación"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__message_is_follower
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__message_is_follower
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__message_is_follower
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__message_is_follower
+msgid "Is Follower"
+msgstr "Es seguidor"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__write_uid
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__write_uid
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__write_uid
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__write_uid
+#: model:ir.model.fields,field_description:uniacme.field_voting_process_import_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__write_date
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__write_date
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__write_date
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__write_date
+#: model:ir.model.fields,field_description:uniacme.field_voting_process_import_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_login_template
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__message_has_error
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__message_has_error
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__message_has_error
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de entrega de mensajes"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__message_ids
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__message_ids
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__message_ids
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__my_activity_date_deadline
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__my_activity_date_deadline
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__my_activity_date_deadline
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Mi fecha límite de actividad"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__activity_date_deadline
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__activity_date_deadline
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__activity_date_deadline
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Fecha límite de la próxima actividad"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__activity_summary
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__activity_summary
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__activity_summary
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la próxima actividad"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__activity_type_id
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__activity_type_id
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__activity_type_id
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipo de próxima actividad"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__message_needaction_counter
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__message_needaction_counter
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__message_needaction_counter
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__message_has_error_counter
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__message_has_error_counter
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__message_has_error_counter
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: uniacme
+#: model:ir.model.fields,help:uniacme.field_uniacme_career__message_needaction_counter
+#: model:ir.model.fields,help:uniacme.field_uniacme_headquarter__message_needaction_counter
+#: model:ir.model.fields,help:uniacme.field_voting_line__message_needaction_counter
+#: model:ir.model.fields,help:uniacme.field_voting_process__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensajes que requieren acción"
+
+#. module: uniacme
+#: model:ir.model.fields,help:uniacme.field_uniacme_career__message_has_error_counter
+#: model:ir.model.fields,help:uniacme.field_uniacme_headquarter__message_has_error_counter
+#: model:ir.model.fields,help:uniacme.field_voting_line__message_has_error_counter
+#: model:ir.model.fields,help:uniacme.field_voting_process__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: uniacme
+#: model:ir.model.fields.selection,name:uniacme.selection__voting_process__state__open
+msgid "Open"
+msgstr "Abierto"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.uniacme_voting_process_view_form
+msgid "Planned Date"
+msgstr "Fecha planeada"
+
+#. module: uniacme
+#. odoo-python
+#: code:addons/uniacme/wizard/voting_process_import_wizard.py:0
+msgid "Processes"
+msgstr "Procesos"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__activity_user_id
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__activity_user_id
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__activity_user_id
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__message_has_sms_error
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__message_has_sms_error
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__message_has_sms_error
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_candidate_template
+msgid "Select a candidate"
+msgstr "Seleccione un candidato"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_selection_template
+msgid "Select the vote"
+msgstr "Seleccione el voto"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_confirm_template
+msgid "Selected Candidate:"
+msgstr "Candidato seleccionado:"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__date_start
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.uniacme_voting_process_kanban
+#: model_terms:ir.ui.view,arch_db:uniacme.uniacme_voting_process_view_form
+msgid "Start Process"
+msgstr "Iniciar proceso"
+
+#. module: uniacme
+#: model:ir.actions.server,name:uniacme.action_start_voting_process
+msgid "Start Voting Process"
+msgstr "Iniciar proceso de votación"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__state
+msgid "State"
+msgstr "Estado"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.uniacme_voting_process_kanban
+msgid "State:"
+msgstr "Estado:"
+
+#. module: uniacme
+#: model:ir.model.fields,help:uniacme.field_uniacme_career__activity_state
+#: model:ir.model.fields,help:uniacme.field_uniacme_headquarter__activity_state
+#: model:ir.model.fields,help:uniacme.field_voting_line__activity_state
+#: model:ir.model.fields,help:uniacme.field_voting_process__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades\n"
+"Vencido: la fecha de vencimiento ya ha pasado\n"
+"Hoy: la fecha de actividad es hoy\n"
+"Planeado: Actividades futuras."
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__student_id
+#: model:ir.model.fields.selection,name:uniacme.selection__res_partner__partner_type__student
+msgid "Student"
+msgstr "Estudiante"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.view_form_student_contact
+msgid "Student Data"
+msgstr "Datos del estudiante"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_confirm_template
+msgid "Student:"
+msgstr "Estudiante:"
+
+#. module: uniacme
+#: model:ir.actions.act_window,name:uniacme.action_student_contacts
+#: model:ir.ui.menu,name:uniacme.menu_student_contacts
+msgid "Students"
+msgstr "Estudiantes"
+
+#. module: uniacme
+#. odoo-python
+#: code:addons/uniacme/models/voting_process.py:0
+msgid ""
+"The process cannot be started. The following required fields are missing: %s"
+msgstr "No se puede iniciar el proceso. Los siguientes campos requeridos faltan: %s"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.uniacme_voting_process_kanban
+msgid "There are no candidates for this process."
+msgstr "No hay candidatos para este proceso."
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__tz
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__tz
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#. module: uniacme
+#: model:ir.model.fields,help:uniacme.field_uniacme_career__activity_exception_decoration
+#: model:ir.model.fields,help:uniacme.field_uniacme_headquarter__activity_exception_decoration
+#: model:ir.model.fields,help:uniacme.field_voting_line__activity_exception_decoration
+#: model:ir.model.fields,help:uniacme.field_voting_process__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción en el registro."
+
+#. module: uniacme
+#: model:ir.ui.menu,name:uniacme.uniacme_menu
+msgid "Uniacme"
+msgstr "Uniacme"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_res_partner__university_career_id
+#: model:ir.model.fields,field_description:uniacme.field_res_users__university_career_id
+msgid "University Career"
+msgstr "Carrera universitaria"
+
+#. module: uniacme
+#: model:website.menu,name:uniacme.menu_vote
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_candidate_template
+msgid "Vote"
+msgstr "Votar"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_confirm_template
+msgid "Vote Confirmation"
+msgstr "Confirmación de voto"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_confirm_template
+#: model_terms:ir.ui.view,arch_db:uniacme.vote_selection_template
+msgid "Vote:"
+msgstr "Voto:"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.view_uniacme_voting_line_pivot
+msgid "Votes by Candidate and Process"
+msgstr "Votos por candidato y proceso"
+
+#. module: uniacme
+#: model_terms:ir.ui.view,arch_db:uniacme.uniacme_voting_process_kanban
+msgid "Votes:"
+msgstr "Votos:"
+
+#. module: uniacme
+#: model:ir.actions.act_window,name:uniacme.uniacme_voting_line_action
+#: model:ir.model,name:uniacme.model_voting_line
+#: model:ir.ui.menu,name:uniacme.menu_voting_line
+msgid "Voting Line"
+msgstr "Línea de votación"
+
+#. module: uniacme
+#: model:ir.actions.act_window,name:uniacme.uniacme_voting_process_action
+#: model:ir.model,name:uniacme.model_voting_process
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__process_id
+#: model:ir.ui.menu,name:uniacme.menu_voting_process
+msgid "Voting Process"
+msgstr "Proceso de votación"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_career__website_message_ids
+#: model:ir.model.fields,field_description:uniacme.field_uniacme_headquarter__website_message_ids
+#: model:ir.model.fields,field_description:uniacme.field_voting_line__website_message_ids
+#: model:ir.model.fields,field_description:uniacme.field_voting_process__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: uniacme
+#: model:ir.model.fields,help:uniacme.field_uniacme_career__website_message_ids
+#: model:ir.model.fields,help:uniacme.field_uniacme_headquarter__website_message_ids
+#: model:ir.model.fields,help:uniacme.field_voting_line__website_message_ids
+#: model:ir.model.fields,help:uniacme.field_voting_process__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: uniacme
+#: model:ir.model.fields,field_description:uniacme.field_voting_process_import_wizard__file
+msgid "XLSX File"
+msgstr "Archivo XLSX"
+
+#. module: uniacme
+#: model:ir.ui.menu,name:uniacme.menu_voting_process_import_wizard
+msgid "import processes"
+msgstr "Importar procesos"
+
+#. module: uniacme
+#. odoo-python
+#: code:addons/uniacme/wizard/voting_process_import_wizard.py:0
+msgid "sample_template.xlsx"
+msgstr "plantilla_ejemplo.xlsx"

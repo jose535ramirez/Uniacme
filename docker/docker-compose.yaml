@@ -1,0 +1,23 @@
+services:
+  db:
+    platform: linux/amd64
+    image: postgres:16
+    container_name: psql-odoo
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=odoo
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - db-data:/var/lib/postgresql/data/pgdata
+    networks:
+      - uniacme
+
+volumes:
+  db-data:
+
+networks:
+  uniacme:
+    driver: bridge

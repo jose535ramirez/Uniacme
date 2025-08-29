@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="vote_login_template" name="Vote - Login">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2>Access to voting</h2>
+                <form action="/vote/selection" method="get">
+                    <div class="form-group">
+                        <label for="vat">ID number:</label>
+                        <input type="text" name="vat" id="vat" class="form-control"/>
+                    </div>
+                    <t t-if="error">
+                        <div class="alert alert-danger mt-2">
+                            <t t-esc="error"/>
+                        </div>
+                    </t>
+                    <button type="submit" class="btn btn-primary mt-3">Log in</button>
+                </form>
+            </div>
+        </t>
+    </template>
+
+    <template id="vote_selection_template" name="Vote - Selection">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2>Select the vote</h2>
+                <form action="/vote/candidate" method="get">
+                    <input type="hidden" name="vat" t-att-value="student.vat"/>
+                    <div class="form-group">
+                        <label for="vote_id">Vote:</label>
+                        <select name="vote_id" id="vote_id" class="form-control">
+                            <t t-foreach="votes" t-as="vote">
+                                <option t-att-value="vote.id"><t t-esc="vote.description"/></option>
+                            </t>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-success mt-3">Continue</button>
+                </form>
+            </div>
+        </t>
+    </template>
+
+    <template id="vote_candidate_template" name="Vote - Candidate">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2>Select a candidate</h2>
+                <form action="/vote/confirm" method="post">
+                    <input type="hidden" name="vat" t-att-value="student.vat"/>
+                    <input type="hidden" name="vote_id" t-att-value="vote.id"/>
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                    <div class="form-group">
+                        <label for="candidate_id">Candidate:</label>
+                        <select name="candidate_id" id="candidate_id" class="form-control">
+                            <t t-foreach="candidates" t-as="candidate">
+                                <option t-att-value="candidate.id"><t t-esc="candidate.name"/></option>
+                            </t>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-warning mt-3">Vote</button>
+                </form>
+            </div>
+        </t>
+    </template>
+
+    <template id="vote_confirm_template" name="Vote - Confirmation">
+        <t t-call="website.layout">
+            <div class="container mt-5">
+                <h2>Vote Confirmation</h2>
+                <div class="alert alert-success">
+                    <t t-esc="message"/>
+                </div>
+                <p>Student: <strong><t t-esc="student.name"/></strong></p>
+                <p>Vote: <strong><t t-esc="vote.description"/></strong></p>
+                <p>Selected Candidate: <strong><t t-esc="candidate.name"/></strong></p>
+            </div>
+        </t>
+    </template>
+</odoo>
